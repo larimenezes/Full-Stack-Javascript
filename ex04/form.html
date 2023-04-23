@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Liga dos Astronautas</title>
+  </head>
+  <body>
+    <h2>Cadastro da Liga dos Astronautas</h2>
+    <form>
+      <p>
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name" />
+      </p>
+      <p>
+        <label for="login">Email:</label>
+        <input type="email" name="login" id="login" /> -
+        <label for="senha">Password:</label>
+        <input type="password" name="senha" id="senha" />
+      </p>
+      <p>
+        <label for="nasc">Data de nascimento:</label>
+        <input type="date" name="nasc" id="nasc" /> -
+        <label for="foto">Foto:</label>
+        <input type="file" name="foto" id="foto" />
+      </p>
+      <p>
+        <label for="nacio">Nacionalidade:</label>
+        <input name="nacio" id="nacio" list="nacios" />
+        <datalist id="nacios">
+          <option value="Russo"></option>
+          <option value="Italiano"></option>
+          <option value="Brasileiro"></option>
+          <option value="Japonês"></option>
+          <option value="Coreano"></option>
+        </datalist>
+        -
+        <label for="sexof">Gênero:</label>
+        <label for="sexof">F</label>
+        <input type="radio" name="txtsexo" id="sexof" checked />
+        <label for="sexom">M</label>
+        <input type="radio" name="txtsexo" id="sexom" />
+      </p>
+      <p>
+        Suas principais qualidades:<br />
+        <label for="int">Inteligência</label>
+        <input type="checkbox" name="int" id="int" />|
+        <label for="resi">Resiliência</label>
+        <input type="checkbox" name="resi" id="resi" />|
+        <label for="prepf">Preparo físico</label>
+        <input type="checkbox" name="prepf" id="prepf" />|
+        <label for="educa">Educação</label>
+        <input type="checkbox" name="educa" id="educa" />
+      </p>
+      <p>
+        <textarea
+          name="text"
+          id="text"
+          cols="30"
+          rows="10"
+          placeholder="Porque você gostaria de ser um astronauta?"
+        ></textarea>
+      </p>
+      <p>
+        <input type="submit" value="Criar" />
+      </p>
+    </form>
+  </body>
+</html>
