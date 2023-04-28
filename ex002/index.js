@@ -1,12 +1,13 @@
-const nomeDoPrimeiro = prompt("Informe o nome do primeiro veículo:")
-const nomeDoSegundo = prompt("Informe o nome do segundo veículo:")
-const veloDoPrimeiro = prompt("Informe a velocidade do primeiro veículo:")
-const veloDoSegundo = prompt("Informe a velocidade do segundo veículo:")
+const veiculo1 = prompt("Informe o nome do primeiro veículo:")
+const velocidade1 = prompt("Informe a velocidade do primeiro veículo:")
 
-if (veloDoPrimeiro > veloDoSegundo) {
-  alert(nomeDoPrimeiro + " " + "é o veículo mais rápido!")
-} else if (veloDoPrimeiro < veloDoSegundo) {
-  alert(nomeDoSegundo + " " + "é o veículo mais rápido!")
+const veiculo2 = prompt("Informe o nome do segundo veículo:")
+const velocidade2 = prompt("Informe a velocidade do segundo veículo:")
+
+if (velocidade1 > velocidade2) {
+  alert(veiculo1 + " é mais rápido do que " + veiculo2)
+} else if (velocidade2 > velocidade1) {
+  alert(veiculo2 + " é mais rápido do que " + veiculo1)
 } else {
-  alert(nomeDoPrimeiro + " " "e" " " + nomeDoSegundo + " " + "têm a mesma velocidade!" )
+  alert(veiculo1 + " e " + veiculo2 + " possuem a mesma velocidade!" )
 }
