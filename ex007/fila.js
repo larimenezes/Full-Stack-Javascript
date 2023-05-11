@@ -3,7 +3,7 @@ let opcao = ""
 
 do {
   let pacientes = ""
-  for ( let i  = 0; i < fila.length; i++) {
+  for (let i  = 0; i < fila.length; i++) {
     pacientes += (i + 1) + "° - " + fila[i] +"\n"
   }
 
