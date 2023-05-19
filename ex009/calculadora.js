@@ -47,22 +47,22 @@ function executar() {
     let resultado
 
     switch (opcao) {
-      case 1:
+      case "1":
         resultado = calcularAreaTriangulo()
         break
-      case 2:
+      case "2":
         resultado = calcularAreaRetangulo()
         break
-      case 3:
+      case "3":
         resultado = calcularAreaQuadrado()
         break
-      case 4:
+      case "4":
         resultado = calcularAreaTrapezio()
         break
-      case 5:
+      case "5":
         resultado = calcularAreaCirculo() 
         break
-      case 6:
+      case "6":
         alert("Saindo...")
         break;
       default:
