@@ -25,7 +25,7 @@ function removePlayer() {
   const confirmation = confirm('Remover o jogador ' + playerToRemove.innerText + '?')
   
   if (confirmation) {
-    document.getElementById('teamList').removeChild(playerToRemove)  //ou playerToRemove.remove()
+    document.getElementById('teamList').removeChild(playerToRemove)  //ou apenas playerToRemove.remove()
     document.getElementById('numberToRemove').value = ''
   }
 }
