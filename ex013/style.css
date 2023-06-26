@@ -1,35 +1,46 @@
 body {
   font-family: sans-serif;
   text-align: center;
-  
+  background: url('./fundoroxo.jpg') no-repeat right;
+  background-size: cover;
+}
+
+label {
+  font-weight: bolder;
 }
 
 
 input {
-  color: blue;
   width: 10rem;
   height: 1.5rem;
+  border-color: #bc67d9;
+  
 }
 
 
 button {
-  color: red;
+  background-color: #bc67d9;
+  color: white;
   height: 1.8rem;
   font-weight: bold;
+  
+  
+}
+
+button:hover {
+  background-color: red;
 }
 
 
 #gameBoard {
-  background-color: #8a5402;
+  background-color: #0b0700;
   display: grid;
   grid-template-columns: 6rem 6rem 6rem;
   grid-template-rows: 6rem 6rem 6rem;
   gap: .5rem;
   margin-bottom: 1.5rem;
   max-width: 19rem;
-  margin: auto;
-  
-  
+  margin: auto; 
   
 }
 
@@ -42,7 +53,7 @@ button {
 }
 
 #gameBoard span.win {
-  background-color: #25a325;
+  background-color: #43ec43;
 }
 
 .cursor-pointer {
