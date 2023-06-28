@@ -5,6 +5,7 @@ body {
   text-align: center;
   background: url('./fundoroxo.jpg') no-repeat right;
   background-size: cover;
+  
 }
 
 h1 {
@@ -45,6 +46,7 @@ button:hover {
   margin-bottom: 1.5rem;
   max-width: 19rem;
   margin: auto; 
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.39);
   
 }
 
