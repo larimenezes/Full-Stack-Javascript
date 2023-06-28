@@ -13,7 +13,7 @@ function initializeGame() {
   vBoard = [['', '', ''], ['', '', ''], ['', '', '']]
   turnPlayer = 'player1'
   // Ajusta o título da página (caso seja necessário)
-  document.querySelector('h2').innerHTML = 'Vez de: <span id="turnPlayer"></span>'
+  document.querySelector('h2').innerHTML = 'Vez do Jogador: <span id="turnPlayer"></span>'
   updateTitle()
   // Limpa o tabuleiro (caso seja necessário) e adiciona os eventos de clique
   boardRegions.forEach(function (element) {
