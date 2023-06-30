@@ -57,7 +57,6 @@ function handleWin(regions) {
 }
 
 function handleBoardClick(ev) {
-  
   const span = ev.currentTarget
   const region = span.dataset.region // N.N
   const rowColumnPair = region.split('.') // ["N", "N"]
